@@ -4,12 +4,12 @@ include __DIR__ . '/MoySkladICMLParser.php';
 
 // configure
 $parser = new MoySkladICMLParser(
-    'login@moysklad',
-    'password',
-    'shopname',
+    'admin@penformen',
+    'psecretn',
+    'shop1',
     array(
         'directory' => __DIR__,
-        'file' => 'test.xml',
+        'file' => 'catalog.xml',
     )
 );
 
